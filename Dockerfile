@@ -18,7 +18,7 @@ RUN apt-get remove -y ${BUILD_DEPENDENCIES}
 
 WORKDIR /home
 
-ADD https://oss.sonatype.org/content/repositories/releases/net/sourceforge/plantuml/plantuml/1.2018.9/plantuml-1.2018.9.jar /usr/local/bin/plantuml.jar
+ADD https://oss.sonatype.org/content/repositories/releases/net/sourceforge/plantuml/plantuml/1.2018.13/plantuml-1.2018.13.jar /usr/local/bin/plantuml.jar
 
 COPY exec.sh /usr/local/bin/
 
